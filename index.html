@@ -4,16 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-
+  <title>Intro form</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-
-
+  <!-- main-content -->
+<div class="main-content">
+  <div class="container">  
+    <!-- intro-page -->
+    <div class="intro-page">
+      <div class="ad-form">
+        <div class="ad-form-top">
+          <div class="ad-title">frontend and backend</div>
+          <h1 class="ad-heading">
+            Learn to program by<br>watching<br>professionals
+          </h1>
+          <h4 class="ad-second-heading">
+            See how experienced developers solve<br>problems in real time
+          </h4>
+        </div>
+        <div class="ad-form-bottom">
+          <strong>Try it free 7 days</strong>, then $20/mo
+        </div>
+      </div>
+      <!-- signup-form -->
+       <form class="signup-form" action="https://eco.htmlacademy.ru" method="post" >
+        <h2 class="signup-heading">
+          Sign up for the course and get free 7 days
+        </h2>
+        <div class="signup-form-fields">
+          <input class="signup-form-field" type="text" name="name" placeholder="First name" aria-label="First name" required>
+          <input class="signup-form-field" type="text" name="last name" placeholder="Last name" aria-label="Last name" required>
+          <input class="signup-form-field" type="email" name="email" placeholder="Email" aria-label="Email" required>
+          <input class="signup-form-field" type="password" name="password" placeholder="Password" aria-label="Password" required>
+        </div>
+        <button class="signup-submit-button" type="submit">
+          Claim your free trial
+        </button>
+        <div class="signup-form-info">
+          By clicking the button, you are agreeing to our 
+            <a class="submit-form-info-link" href="#">Terms and Services</a>
+        </div>
+       </form>
+    </div>
+  </div>
+</div>
   <script src="js/main.js"></script>
 </body>
 </html>
